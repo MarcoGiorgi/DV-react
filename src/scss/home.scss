@@ -1,0 +1,20 @@
+.menu-block { position: relative; width: 100%; height: 250px; background-size: cover; }
+.menu-block div.block-title {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 29px;
+  font-weight: bold; /*text-shadow: 2px 2px #000;*/ -webkit-font-smoothing: antialiased;
+  padding-right: 15px;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.app-body-home .main {
+  background: #56595E;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}

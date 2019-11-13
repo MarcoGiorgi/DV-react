@@ -1,0 +1,139 @@
+#coverageSelector { opacity: 0.2; }
+.lbl-coverage { cursor: pointer; color: #666; }
+.lbl-coverage:hover { cursor: pointer; color: #333; }
+.coverage-selected { color: #fff !important; }
+#dc-cover { position: absolute; width: 420px; height: 60px; background-color: transparent; top: 0; }
+
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+}
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+  height: 45px;
+}
+
+.box-title {
+  background-color: #D15152;
+  padding: 8px 15px 8px 8px;
+  color: #fff;
+  position: absolute;
+  left: -6px;
+  with: 200px;
+}
+.block {
+  display: inline-block;
+}
+
+.box.box-solid {
+  border-top: 0;
+}
+
+.box {
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 2px 2px rgba(0,0,0,.1);
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  padding-bottom: 35px;
+  border-top: 3px solid #bf0909 !important;
+}
+
+body, h1, h2, h3, h4, h5, p, li, div, span {
+  font-family: Arial;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+element.style {
+  display: block;
+}
+
+.present {
+  font-weight: bold;
+}
+
+.container p {
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #0073BA;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+  background-color: #D15152;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.sidebar .nav-link.active {
+  background: #bf0909;
+}
+
+li.present span {
+  background-color: #BE0A0D !important;
+  border-color: #BE0A0D !important;
+}
+
+
+
+.rcs-custom-scroll .rcs-inner-handle {
+  background-color: #BE0A0D;
+  //background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQYV2NkIAAYiVbw//9/Y6DiM1ANJoyMjGdBbLgJQAX/kU0DKgDLkaQAvxW4HEvQFwCRcxIJK1XznAAAAABJRU5ErkJggg==);
+}
+
+div.chartTooltip {
+  background: #EEE;
+  color: #222 !important;
+  /*width: 300px;*/ }
+div.chartTooltip table {
+  margin: 5px auto 2px auto; }
+div.chartTooltip span {
+  font-weight: bold;
+  padding: 4px; }
+div.chartTooltip table tr td {
+  padding: 2px; }
+div.chartTooltip table tr td.val {
+  font-weight: bold;
+  text-align: right; }
+div.chartTooltip table tr td.price {
+  font-weight: bold;
+  text-align: left; }
+div.chartTooltip table tr td.unit {
+  text-align: left; }
+
+.chartTooltip .series-color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px; }
+
+.k-chart-tooltip {
+  background: #EEE !important;
+  color: #222 !important;
+  border-color: #80C3DF !important;
+  opacity: 0.9 !important; }

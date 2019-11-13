@@ -1,0 +1,16 @@
+// Variable overrides
+$navbar-brand-width:                  270px !default;
+$navbar-height:                       70px !default;
+$sidebar-width: 305px !default;
+$sidebar-bg: #5B5B5F !default;
+$sidebar-minimizer-bg: #262A2E !default;
+$footer-bg: #5B5B5F !default;
+$footer-color: #5B5B5F !default;
+$border-color: #c8ced3 !default;
+$footer-borders: (
+        top: (
+                size:                             1px,
+                style:                            solid,
+                color:                            #bf0411
+        )
+) !default;

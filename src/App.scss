@@ -1,0 +1,46 @@
+// Styles
+// CoreUI Icons Set
+@import '~@coreui/icons/css/coreui-icons.css';
+// Import Font Awesome Icons Set
+@import '~font-awesome/css/font-awesome.min.css';
+// Import Main styles for this application
+@import './scss/style.scss';
+
+@import './scss/dataviz.scss';
+
+@import "~@syncfusion/ej2-base/styles/material.css";
+@import "~@syncfusion/ej2-buttons/styles/material.css";
+@import "~@syncfusion/ej2-inputs/styles/material.css";
+@import "~@syncfusion/ej2-lists/styles/material.css";
+@import "~@syncfusion/ej2-popups/styles/material.css";
+@import "~@syncfusion/ej2-react-calendars/styles/material.css";
+@import "~@syncfusion/ej2-react-navigations/styles/material.css";
+@import "~@syncfusion/ej2-splitbuttons/styles/material.css";
+@import '~@syncfusion/ej2-react-buttons/styles/material.css';
+@import '~@syncfusion/ej2-react-dropdowns/styles/material.css';
+@import '~@syncfusion/ej2-calendars/styles/material.css';
+@import '~@syncfusion/ej2-dropdowns/styles/material.css';
+@import '~@syncfusion/ej2-navigations/styles/material.css';
+@import '~@syncfusion/ej2-react-grids/styles/material.css';
+
+@import '~react-toastify/dist/ReactToastify.css';
+
+@import '~react-selectize/themes/index.css';
+
+@import '~react-responsive-carousel/lib/styles/carousel.css';
+
+@import '~react-md/src/scss/react-md';
+
+//@include react-md-typography;
+
+//@include react-md-everything;
+
+
+@include react-md-badges;
+@include react-md-buttons;
+@include react-md-icons;
+@include react-md-layovers;
+@include react-md-lists;
+@include react-md-menus;
+@include react-md-papers;
+

@@ -1,0 +1,6 @@
+{
+  "name": "DataVizLayout",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DataVizLayout.js"
+}

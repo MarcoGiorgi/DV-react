@@ -1,0 +1,24 @@
+.app-header {
+  background-color: #BF0411;
+}
+
+.app-body .main {
+  background: #262A2E;
+}
+
+.app-body .internal {
+  @extend .main;
+  background: #FDFDFD;
+}
+
+.popover {
+  max-width: 1800px;
+}
+
+.main .container-fluid {
+  padding: 0 0px;
+}
+
+.sidebar .nav-link.active {
+  background: #bf0909;
+}
